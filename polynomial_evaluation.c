@@ -47,7 +47,7 @@ int main() {
         //the left variable and right expression should be UNTOUCHED
         //only the OPERATION to be MODIFIED
         //please refer to page 6 of Operation slides to get some idea
-        result = p[i] * power(x, q[i]);
+        result+= p[i] * power(x, q[i]);
     }
 
     printf("%lf\n", result);
